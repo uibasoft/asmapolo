@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Asm.Apolo.Dom
+namespace Asm.Apolo.Dom.Entities
 {
-    public class Class1
+    public abstract class Entity : Entity<long>
     {
+
     }
 }
