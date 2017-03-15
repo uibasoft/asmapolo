@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asm.Apolo.Pres", "Asm.Apolo
 EndProject
 Project("{FF286327-C783-4F7A-AB73-9BCBAD0D4460}") = "Asm.Apolo.Core.Nuget", "Asm.Apolo.Core.Nuget\Asm.Apolo.Core.Nuget.nuproj", "{B605A3DC-807C-4B09-9BEF-DA16611711CE}"
 EndProject
+Project("{FF286327-C783-4F7A-AB73-9BCBAD0D4460}") = "Asm.Apolo.Dom.Nuget", "Asm.Apolo.Dom.Nuget\Asm.Apolo.Dom.Nuget.nuproj", "{4381D662-B819-48D4-B0FC-43DC818462E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,10 @@ Global
 		{B605A3DC-807C-4B09-9BEF-DA16611711CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B605A3DC-807C-4B09-9BEF-DA16611711CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B605A3DC-807C-4B09-9BEF-DA16611711CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4381D662-B819-48D4-B0FC-43DC818462E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4381D662-B819-48D4-B0FC-43DC818462E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4381D662-B819-48D4-B0FC-43DC818462E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4381D662-B819-48D4-B0FC-43DC818462E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -66,5 +72,6 @@ Global
 		{282A17D8-29C4-4F9A-A2AA-CB2D1CFE2129} = {533BFB5B-9A8F-4FDF-95AA-87E7CB4E6F57}
 		{E3E9A14E-8255-4300-A44A-39ACD27D25A9} = {7CF0E548-11A0-45B8-A8CC-380A359C98A8}
 		{B605A3DC-807C-4B09-9BEF-DA16611711CE} = {533BFB5B-9A8F-4FDF-95AA-87E7CB4E6F57}
+		{4381D662-B819-48D4-B0FC-43DC818462E4} = {92EE9035-0F72-4260-810A-607ED71A7F93}
 	EndGlobalSection
 EndGlobal

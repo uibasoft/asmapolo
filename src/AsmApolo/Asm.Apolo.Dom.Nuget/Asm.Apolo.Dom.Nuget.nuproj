@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>4381d662-b819-48d4-b0fc-43dc818462e4</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NuProjPath Condition=" '$(NuProjPath)' == '' ">$(MSBuildExtensionsPath)\NuProj\</NuProjPath>
+  </PropertyGroup>
+  <Import Project="$(NuProjPath)\NuProj.props" Condition="Exists('$(NuProjPath)\NuProj.props')" />
+  <PropertyGroup Label="Configuration">
+    <Id>Asm.Apolo.Dom</Id>
+    <Version>1.0.0</Version>
+    <Title>Asm Apolo Dom</Title>
+    <Authors>Luis Alberto Baigorria Rodas</Authors>
+    <Owners>uialberto, Luis Alberto Baigorria Rodas</Owners>
+    <Summary>Componente de Framework Apolo es un componente que ofrece clases que definen el contrato para una implementacion de repository, unit of work, entity, etc. Debe ser referenciado en la capa de dominio bajo una arquitectura domain driven design.</Summary>
+    <Description>Componente de Framework Apolo es un componente que ofrece clases que definen el contrato para una implementacion de repository, unit of work, entity, etc. Debe ser referenciado en la capa de dominio bajo una arquitectura domain driven design.</Description>
+    <ReleaseNotes>
+    </ReleaseNotes>
+    <ProjectUrl>https://github.com/uibasoft/asmapolo</ProjectUrl>
+    <LicenseUrl>https://github.com/uibasoft/asmapolo/blob/master/LICENSE</LicenseUrl>
+    <Copyright>Copyright © Uibasoft 2017</Copyright>
+    <Tags>Entity, Repository, Unit of Wrok, IUnitOfWork, IEntity, Asm, Uibasoft</Tags>
+    <IconUrl>http://uibasoft.com/img/emp/uiletter.ico</IconUrl>
+    <GenerateSymbolPackage>false</GenerateSymbolPackage>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Asm.Apolo.Dom\Asm.Apolo.Dom.csproj" />
+  </ItemGroup>
+  <Import Project="$(NuProjPath)\NuProj.targets" />
+</Project>
