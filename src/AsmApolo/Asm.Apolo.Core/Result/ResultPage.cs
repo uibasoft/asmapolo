@@ -15,7 +15,8 @@ namespace Asm.Apolo.Core.Result
         public List<TElement> Elements { get; set; }
         public int PageIndex { get; set; }
         public int PageSize { get; set; }
-        public int TotalElements { get; set; }
+        public int TotalElements { get; set; }      
         public int TotalPage { get; set; }
+        public int TotalFiltered { get; set; }
     }
 }
